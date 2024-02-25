@@ -1,0 +1,31 @@
+.exploding-kitten{
+    background-color: #35374B;
+    color: white;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10%;
+    margin: 7% 25% 7%;
+}
+
+.exploding-kitten-title{
+    font-size: 50vmin;
+    margin: 5% 0 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 5% !important;
+}
+
+.start-btn{
+    width: 40%;
+    height: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2vi;
+}
+
+.menu{
+    margin: 7% 0 5%;
+}
+
+.menu-btn{
+    margin: 2% 0 3%;
+}

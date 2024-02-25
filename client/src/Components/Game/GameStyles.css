@@ -1,0 +1,43 @@
+.newgametitle{
+    margin: 2.5% 0 2.5%;
+}
+
+.card{
+    margin: 5% 40% 5%;
+    height: 70%;
+    width: 20%;
+    background-color: darkslateblue;
+    color: beige;
+    border-radius: 30px;
+    font-family: cursive;
+
+}
+
+.cardEmoji{
+    font-size:700%;
+}
+
+.cardName{
+    font-size: 200%;
+}
+
+.draw-tab{
+    margin-top: 2%;
+}
+
+.gameData{
+    text-align: left;
+}
+
+.gameMenu{
+    text-align: right;
+}
+
+.gameMenu button{
+    margin: 4% 0 4%;
+}
+
+.rulesDiv{
+    margin: 5% 0 5%;
+    text-align: left;
+}
