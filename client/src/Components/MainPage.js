@@ -10,7 +10,7 @@ const MainPage = () => {
         </div>
         <div className='button-tab'>
             <button className='btn btn-dark start-btn' onClick={() => {
-              window.location.href = "/login"
+              window.location.href = "/newgame"
             }}>Start Game</button>
         </div>
     </div>

@@ -91,9 +91,6 @@ const NewGame = () => {
                 <button className='btn btn-outline-light' onClick={() => {
                     window.location.href = "/rules"
                 }}>View Rules</button>
-                <button className='btn btn-outline-light' onClick={() => {
-                    window.location.href = "/scoreboard"
-                }}>View Scoreboard</button>
             </div>
             <div className='col-md-8'>
                 {newGame? <Cardbox data={cardDetail}/> :"Click below to start the game👇"}

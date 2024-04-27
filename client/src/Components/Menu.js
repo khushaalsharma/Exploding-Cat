@@ -12,11 +12,6 @@ const Menu = () => {
         </div>
         <div className='menu-btn'>
           <button className='btn btn-outline-success' onClick={() => {
-            window.location.href = "/scoreboard";
-        }}>View Scoreboard</button>
-        </div>
-        <div className='menu-btn'>
-          <button className='btn btn-outline-success' onClick={() => {
             window.location.href = "/rules"
         }}>View Rules</button>
         </div>
