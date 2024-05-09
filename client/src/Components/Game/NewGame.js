@@ -86,19 +86,19 @@ const NewGame = () => {
         <div className='newgametitle'>
             <h2>Let's play Exploding Kitten 🐈</h2>
         </div>
-        <div className='row'>
-            <div className='col-md-2 gameMenu'>
+        <div className='game'>
+            <div className='gameMenu'>
                 <button className='btn btn-outline-light' onClick={() => {
                     window.location.href = "/rules"
                 }}>View Rules</button>
             </div>
-            <div className='col-md-8'>
+            <div className='cardPlace'>
                 {newGame? <Cardbox data={cardDetail}/> :"Click below to start the game👇"}
                 <div className='draw-tab'>
                     <button className='btn btn-primary' onClick={handleDrawCard}>Draw Card</button>
                 </div>
             </div>
-            <div className='col-md-2 gameData'>
+            <div className='gameData'>
                 <h6>Diffuse Card Lifeline:{lifeline}</h6>
                 <h6>Draws Left: {draws}</h6>
             </div>

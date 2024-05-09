@@ -29,3 +29,10 @@
 .menu-btn{
     margin: 2% 0 3%;
 }
+
+@media screen and (max-width: 576px){
+    .exploding-kitten{
+        width: 80%;
+        margin: 30% 10%;
+    }
+}
